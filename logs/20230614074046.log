@@ -1,0 +1,62 @@
+2023-06-14 07:40:47,253 - faiss.loader - INFO - Loading faiss with AVX2 support.
+2023-06-14 07:40:47,255 - faiss.loader - INFO - Could not load library with AVX2 support due to:
+ModuleNotFoundError("No module named 'faiss.swigfaiss_avx2'")
+2023-06-14 07:40:47,255 - faiss.loader - INFO - Loading faiss.
+2023-06-14 07:40:47,485 - faiss.loader - INFO - Successfully loaded faiss.
+2023-06-14 07:40:48,815 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2023-06-14 07:40:50,075 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2023-06-14 07:47:05,349 - src.utils - INFO - Collecting and preprocessing data ...
+2023-06-14 07:47:05,349 - src.utils - INFO - Getting raw data from AWS mongoDB
+2023-06-14 07:47:14,438 - src.utils - INFO - Preprocessing data ...
+2023-06-14 07:50:39,583 - src.utils - INFO - Deduplicating data ...
+2023-06-14 07:50:40,326 - src.utils - INFO - data size comparison: 
+	original size: 13322 
+	processed size: 12972
+2023-06-14 07:54:21,351 - src.utils - INFO - Searching index for 5 queries...
+2023-06-14 07:54:21,429 - src.utils - INFO - Proceesing query:Carbon emission
+2023-06-14 07:54:21,461 - src.utils - INFO - Relevance score below threshold - Skipping: 11220
+2023-06-14 07:54:21,494 - src.utils - INFO - Relevance score below threshold - Skipping: 3051
+2023-06-14 07:54:21,510 - src.utils - INFO - Relevance score below threshold - Skipping: 12050
+2023-06-14 07:54:21,535 - src.utils - INFO - Relevance score below threshold - Skipping: 9475
+2023-06-14 07:54:21,551 - src.utils - INFO - Relevance score below threshold - Skipping: 7389
+2023-06-14 07:54:21,551 - src.utils - INFO - Proceesing query:debt reduction among companies
+2023-06-14 07:54:21,663 - src.utils - INFO - Proceesing query:lack of medical devices in hospitals
+2023-06-14 07:54:21,760 - src.utils - INFO - Proceesing query:covid-19 vaccine development
+2023-06-14 07:54:21,856 - src.utils - INFO - Proceesing query:women entrepreneuship in india
+2023-06-14 07:54:21,961 - src.utils - INFO - Search complete.
+2023-06-14 07:54:25,977 - src.utils - INFO - Searching index for 5 queries...
+2023-06-14 07:54:26,034 - src.utils - INFO - Proceesing query:Carbon emission
+2023-06-14 07:54:26,050 - src.utils - INFO - Relevance score below threshold - Skipping: 11220
+2023-06-14 07:54:26,074 - src.utils - INFO - Relevance score below threshold - Skipping: 3051
+2023-06-14 07:54:26,090 - src.utils - INFO - Relevance score below threshold - Skipping: 12050
+2023-06-14 07:54:26,114 - src.utils - INFO - Relevance score below threshold - Skipping: 9475
+2023-06-14 07:54:26,130 - src.utils - INFO - Relevance score below threshold - Skipping: 7389
+2023-06-14 07:54:26,130 - src.utils - INFO - Proceesing query:debt reduction among companies
+2023-06-14 07:54:26,291 - src.utils - INFO - Proceesing query:lack of medical devices in hospitals
+2023-06-14 07:54:26,379 - src.utils - INFO - Proceesing query:covid-19 vaccine development
+2023-06-14 07:54:26,460 - src.utils - INFO - Proceesing query:women entrepreneuship in india
+2023-06-14 07:54:26,557 - src.utils - INFO - Search complete.
+2023-06-14 08:14:04,123 - src.utils - INFO - Searching index for 5 queries...
+2023-06-14 08:14:04,222 - src.utils - INFO - Proceesing query:Carbon emission
+2023-06-14 08:14:04,251 - src.utils - INFO - Relevance score below threshold - Skipping: 11220
+2023-06-14 08:14:04,276 - src.utils - INFO - Relevance score below threshold - Skipping: 3051
+2023-06-14 08:14:04,304 - src.utils - INFO - Relevance score below threshold - Skipping: 12050
+2023-06-14 08:14:04,320 - src.utils - INFO - Relevance score below threshold - Skipping: 9475
+2023-06-14 08:14:04,355 - src.utils - INFO - Relevance score below threshold - Skipping: 7389
+2023-06-14 08:14:04,355 - src.utils - INFO - Proceesing query:debt reduction among companies
+2023-06-14 08:14:04,487 - src.utils - INFO - Proceesing query:lack of medical devices in hospitals
+2023-06-14 08:14:04,609 - src.utils - INFO - Proceesing query:covid-19 vaccine development
+2023-06-14 08:14:04,714 - src.utils - INFO - Proceesing query:women entrepreneuship in india
+2023-06-14 08:14:04,841 - src.utils - INFO - Search complete.
+2023-06-14 08:14:56,498 - src.utils - INFO - Searching index for 5 queries...
+2023-06-14 08:14:56,581 - src.utils - INFO - Proceesing query:Carbon emission
+2023-06-14 08:14:56,605 - src.utils - INFO - Relevance score below threshold - Skipping: 11220
+2023-06-14 08:14:56,630 - src.utils - INFO - Relevance score below threshold - Skipping: 3051
+2023-06-14 08:14:56,653 - src.utils - INFO - Relevance score below threshold - Skipping: 12050
+2023-06-14 08:14:56,678 - src.utils - INFO - Relevance score below threshold - Skipping: 9475
+2023-06-14 08:14:56,694 - src.utils - INFO - Relevance score below threshold - Skipping: 7389
+2023-06-14 08:14:56,694 - src.utils - INFO - Proceesing query:debt reduction among companies
+2023-06-14 08:14:56,808 - src.utils - INFO - Proceesing query:lack of medical devices in hospitals
+2023-06-14 08:14:56,906 - src.utils - INFO - Proceesing query:covid-19 vaccine development
+2023-06-14 08:14:57,002 - src.utils - INFO - Proceesing query:women entrepreneuship in india
+2023-06-14 08:14:57,107 - src.utils - INFO - Search complete.
