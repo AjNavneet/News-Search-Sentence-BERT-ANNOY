@@ -1,44 +1,36 @@
-# Search Relevancy Algorithm using SBERT and ANNOY for Articles Data and AWS Deployment
+# Enhancing Search Relevance: SBERT and ANNOY Algorithm Implementation for News Articles with AWS Deployment
 
 ## Project Overview
 
-Search relevance refers to the measure of how well search results align with the user's intent or query. In industries where vast amounts of information are available, such as e-commerce, content platforms, or news outlets, search relevance plays a crucial role in enhancing user experience and driving user engagement. It ensures that users can quickly and accurately find the information they are looking for.
+Search relevance is a critical factor in improving user experience and engagement in information-rich industries such as e-commerce, content platforms, and news outlets. This project focuses on leveraging Sentence-BERT (SBERT) encoding and the ANNOY library to enhance the search relevance of news articles. Additionally, the deployment of the solution on AWS using Docker containers and a Flask API allows users to interact seamlessly with the system.
 
-**Key Industries Where Search Relevance is Essential:**
+**Key Industries Benefiting from Improved Search Relevance:**
 
-- **E-commerce**: In online shopping platforms like Amazon or eBay, search relevance is critical to help users find the products they want.
+- **E-commerce**: Ensuring users find products quickly on platforms like Amazon or eBay.
 
-- **Content Platforms**: Platforms like YouTube or Netflix rely on search relevance to recommend relevant videos or movies to users.
+- **Content Platforms**: Recommending relevant videos or movies on platforms like YouTube or Netflix.
 
-- **News Articles**: In the context of news articles, search relevance is crucial to help users find relevant news stories quickly.
-
-This project involves three key steps:
-
-1. **Sentence-BERT (SBERT) Encoding**: The SBERT model encodes news articles into semantically meaningful sentence embeddings, capturing contextual and semantic information.
-
-2. **ANNOY Indexing**: Utilizing the ANNOY library to create an index of SBERT embeddings, enabling efficient approximate nearest neighbor search.
-
-3. **Deployment on AWS with Docker**: The project is deployed on AWS using Docker containers, with a Flask API serving as the interface for users to interact with the system.
+- **News Articles**: Facilitating quick and accurate retrieval of relevant news stories.
 
 ---
 
 ## Aim
 
-This project aims to improve the search experience for news articles by leveraging the Sentence-BERT (SBERT) model and the ANNOY approximate nearest neighbor library. It will be deployed on AWS using Docker containers and exposed as a Flask API, allowing users to query and retrieve relevant news articles easily.
+The primary goal is to elevate the search experience for news articles through the utilization of SBERT and ANNOY. The solution, deployed on AWS with Docker containers, provides a Flask API interface for users to effortlessly query and retrieve pertinent news articles.
 
 ---
 
 ## Data Description
 
-The dataset consists of 22,399 articles with the following attributes:
+The dataset comprises 22,399 articles, each characterized by the following attributes:
 
-- `article_id`: A unique identifier for each article in the dataset.
-- `category`: The broad category to which the article belongs, providing a high-level classification of the content.
-- `subcategory`: A more specific classification within the category.
-- `title`: The title or headline of the news article.
-- `published date`: The date when the article was published.
-- `text`: The main body of the news article, containing detailed information.
-- `source`: The source or publication from which the article originated.
+- `article_id`: Unique identifier for each article.
+- `category`: Broad classification of the article's content.
+- `subcategory`: More specific classification within the category.
+- `title`: Headline of the news article.
+- `published date`: Date of article publication.
+- `text`: Main body of the news article.
+- `source`: Publication source of the article.
 
 ---
 
@@ -53,20 +45,20 @@ The dataset consists of 22,399 articles with the following attributes:
 
 ### Data Preprocessing
 
-- Clean and preprocess the news article dataset, including tokenization, removal of stop words, and normalization.
+- Clean and preprocess the news article dataset, including tokenization, stop word removal, and normalization.
 
 ### SBERT Training
 
-- Train the Sentence-BERT (SBERT) model using the preprocessed news articles to generate semantically meaningful sentence embeddings.
+- Train the Sentence-BERT (SBERT) model using preprocessed news articles to generate semantically meaningful sentence embeddings.
 
 ### ANNOY Indexing
 
-- Utilize the ANNOY library to create an index of the SBERT embeddings, enabling fast and efficient approximate nearest neighbor search.
+- Use the ANNOY library to create an index of SBERT embeddings, enabling efficient approximate nearest neighbor search.
 
 ### Deployment on AWS with Docker
 
-- Containerize the project components, including the Flask API, SBERT model, and ANNOY index, using Docker.
-- Deploy the Docker containers on AWS EC2 Instance.
+- Containerize project components, including the Flask API, SBERT model, and ANNOY index, using Docker.
+- Deploy Docker containers on an AWS EC2 Instance.
 
 ---
 
@@ -81,25 +73,9 @@ The dataset consists of 22,399 articles with the following attributes:
 7. `docker-compose.yml`
 
 - The `notebooks` folder contains reference materials.
-- The `src` folder contains Python functions organized into different files, which are called by `server.py` to run the project.
-- `Dockerfile` and `docker-compose.yml` are used to deploy the model on AWS cloud.
+- The `src` folder organizes Python functions into different files, called by `server.py` for project execution.
+- `Dockerfile` and `docker-compose.yml` facilitate the deployment of the model on AWS cloud.
 - `requirements.txt` lists all required libraries with respective versions.
-
----
-
-## Key Concepts Explored
-
-1. The importance of search relevance in enhancing user experience and engagement.
-2. Understanding the transformers used in Large Language Models (LLMs).
-3. Data preprocessing steps.
-4. The concept and implementation of semantic embeddings using the SBERT model.
-5. SBERT model training.
-6. Utilizing ANNOY for indexing high-dimensional embeddings.
-7. Docker containers for packaging and deployment.
-8. Deployment on AWS using services like EC2.
-9. Integrating SBERT and ANNOY to build an efficient search system.
-10. Application of NLP techniques in improving search relevancy.
-11. The end-to-end process of developing and deploying an ML project.
 
 ---
 
